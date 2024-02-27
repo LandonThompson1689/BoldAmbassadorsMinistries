@@ -1,0 +1,271 @@
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal content */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* ADDING BLUE, GREEN AND WHITE WITH ORANGE ACCENTS FOR BUTTONS
+
+/* Body background color */
+body {
+    background-color: #f0f0f0; /* Light gray */
+}
+
+/* Header background color and text color */
+header {
+    background-color: #3498db; /* Blue */
+    color: #fff; /* White */
+}
+
+/* Navigation menu link color */
+nav a {
+    color: #fff; /* White */
+}
+
+/* Navigation menu link hover color */
+nav a:hover {
+    color: #f39c12; /* Orange */
+}
+
+/* Main content background color */
+main {
+    background-color: #fff; /* White */
+    padding: 20px;
+}
+
+/* Footer background color and text color */
+footer {
+    background-color: #34495e; /* Dark blue */
+    color: #fff; /* White */
+}
+
+/* Button background color and text color */
+button {
+    background-color: #f39c12; /* Orange */
+    color: #fff; /* White */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Button hover background color */
+button:hover {
+    background-color: #e67e22; /* Darker orange */
+}
+
+/* CENTERING TEXT 
+/* Header styles */
+header {
+    background-color: #093e61; /* Blue */
+    color: #fff; /* White */
+    text-align: center; /* Center align text */
+    padding: 20px 0; /* Add padding to top and bottom */
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center align text */
+}
+
+nav ul li {
+    display: inline-block; /* Display list items horizontally */
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff; /* White */
+    text-decoration: none;
+}
+
+
+
+/* ADDING NEW FONTS
+
+/* Apply Open Sans to the body */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Apply Montserrat to headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; /* Use bold font weight for headings */
+}
+
+/* Use different font weights and sizes for hierarchy and emphasis */
+h1 {
+    font-size: 2em; /* Example: Larger font size for h1 */
+}
+
+h2 {
+    font-size: 1.5em; /* Example: Smaller font size for h2 */
+}
+
+/* Example of using different font weights for emphasis */
+strong {
+    font-weight: 700; /* Use bold font weight for strong emphasis */
+}
+
+/* Example of using different font sizes for hierarchy */
+p {
+    font-size: 1em; /* Default font size for paragraphs */
+}
+
+/* Example of using different font sizes for hierarchy */
+.small-text {
+    font-size: 0.8em; /* Smaller font size for small text */
+}
+
+/*ADDING DROPDOWN CONTAINER
+
+/* Dropdown container */
+.dropdown {
+    position: relative; /* Change back to relative */
+    display: inline-block;
+    margin-right: 10px; /* Add margin to separate from other buttons */
+}
+
+/* Dropdown button */
+.dropbtn {
+    background-color: #093e61; /* Blue */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the button */
+    right: 0; /* Align to the right */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* ADDING DROPDOWN FOR SHOP
+
+/* Shop dropdown container */
+.shop-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Shop dropdown button */
+.shop-dropdown .dropbtn {
+    background-color: #3498db; /* Blue */
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Shop dropdown content (hidden by default) */
+.shop-dropdown .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the button */
+    left: 0; /* Align to the left */
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the Shop dropdown */
+.shop-dropdown .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of Shop dropdown links on hover */
+.shop-dropdown .dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the Shop dropdown menu on hover */
+.shop-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/*ADDING EBOOK UNDER SHOP PAGE
+/* Product listing */
+.product {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Button style */
+.button {
+    background-color: #3498db; /* Blue */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
